@@ -1,6 +1,6 @@
-mkdir /home/datasets
-mkdir /home/datasets/movielens
-mkdir /home/datasets/bookcrossing
+sudo mkdir /home/datasets
+sudo mkdir /home/datasets/movielens
+sudo mkdir /home/datasets/bookcrossing
 
 wget -P /home/datasets/movielens/ http://files.grouplens.org/datasets/movielens/ml-1m.zip
 wget -P /home/datasets/movielens/ http://files.grouplens.org/datasets/movielens/ml-10m.zip
