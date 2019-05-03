@@ -1,7 +1,11 @@
 #!/bin/bash
 
 mkdir experiments
-mv !(experiments|binder) experiments
+mv data experiments
+mv results experiments
+mv *.py experiments
+mv *.ipynb experiments
+mv *.md experiments
 
 mkdir datasets
 mkdir datasets/movielens
