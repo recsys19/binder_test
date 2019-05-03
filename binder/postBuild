@@ -1,0 +1,7 @@
+mkdir /home/datasets
+mkdir /home/datasets/movielens
+mkdir /home/datasets/bookcrossing
+
+wget -P /home/datasets/movielens/ http://files.grouplens.org/datasets/movielens/ml-1m.zip
+wget -P /home/datasets/movielens/ http://files.grouplens.org/datasets/movielens/ml-10m.zip
+wget -P /home/datasets/bookcrossing/ http://www2.informatik.uni-freiburg.de/~cziegler/BX/BX-CSV-Dump.zip
