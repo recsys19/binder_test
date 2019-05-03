@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir experiments
 mv !(experiments|binder) experiments
 
