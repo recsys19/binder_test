@@ -1,0 +1,19 @@
+name: binder-test
+channels:
+  - defaults
+dependencies:
+  - python=3.6.4
+  - numpy
+  - scipy
+  - pandas
+  - numba<0.44
+  - cython
+  - matplotlib
+  - jupyter
+  - notebook
+  - jupyterlab
+  - pip:
+    - ipypb
+    - turicreate
+    - scikit-sparse
+    - git+https://github.com/Evfro/polara.git#egg=polara
